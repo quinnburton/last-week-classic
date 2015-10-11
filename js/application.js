@@ -64,7 +64,7 @@ $(document).ready(function() {
                                   + user.name
                                   + "/library/music/"
                                   + data1.topartists.artist[0].name
-                                  + '?&rangetype=week"'
+                                  + '?date_preset=LAST_7_DAYS"'
                                   + 'target="_blank"'
                                   + '>'
                                   + " (" + data1.topartists.artist[0].playcount
