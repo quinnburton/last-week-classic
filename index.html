@@ -8,26 +8,28 @@
     <script src="js/application.js"></script>
   </head>
   <body>
-    <div class="title" style="width: 347px; margin: 0 auto 0 auto;">
-      <h1>L<span class="red"><i class="fa fa-lastfm"></i></span>t Week</h1>
-      <h5>Enter a last.fm username to see the top artist from the past week for each of that user's friends.
+    <div class="title" style="width: 275px; margin: 0 auto 0 auto;">
+      <h1 style="margin-left: -33px;">L<span class="red"><i class="fa fa-lastfm"></i></span>t Week</h1>
+      <div id="powered-by">Powered by the <a href="http://www.last.fm/api">Last.fm API</a>.
+      </div>
+      <h5 style="text-align:left;">Enter a last.fm username to see the top artist from the past week for each of that user's friends.
+        <br>
         <br>
         <br>
         <div>From these results, you can quickly find:
           <br>
-          <br>
           <ul style="list-style-type:none; list-style-position:inside; margin-left:auto; margin-right: auto; padding:0; display: inline-block; text-align:left;">
-            <li style="list-style-type:none; list-style-position:inside; margin:0;  padding:0;">The top artists for all the friends of that user's friends</li>
-            <li style="list-style-type:none; list-style-position:inside; margin:0;  padding:0;">The user page for each friend</li>
-            <li style="list-style-type:none; list-style-position:inside; margin:0;  padding:0;">Each artist's last.fm page</li>
-            <li style="list-style-type:none; list-style-position:inside; margin:0;  padding:0;">The past week's history for that user/artist combo</li>
+            <li style="list-style-type:none; list-style-position:inside; margin:0;  padding:0 0 1px;">The results for each listed friend</li>
+            <li style="list-style-type:none; list-style-position:inside; margin:0;  padding:0 0 1px;">The user page for each friend</li>
+            <li style="list-style-type:none; list-style-position:inside; margin:0;  padding:0 0 1px;">Each artist's last.fm page</li>
+            <li style="list-style-type:none; list-style-position:inside; margin:0;  padding:0 0 1px;">Weekly history for each user/artist combo</li>
           </ul>
         </div>
       </h5>
     </div>
     <div class="above-main">
       <div class="form">
-        <input id="textbox" type="text" autofocus="autofocus" placeholder="Enter Last.fm username here" style="width: 185px;" onkeydown="if(event.keyCode===13)$('#button').trigger('click');" onfocus="this.value='';"/>
+        <input id="textbox" type="text" autofocus="autofocus" placeholder="Enter Last.fm username here" style="width: 200px;" onkeydown="if(event.keyCode===13)$('#button').trigger('click');" onfocus="this.value='';"/>
         <span id="button">
           <input type="submit" value="Search" id="submit-user"/>
         </span>
@@ -49,12 +51,6 @@
       </table>
     </div>
     <div class="bottom">
-      <div id="powered-by">Powered by the <a href="http://www.last.fm/api">Last.fm API</a>.
-      </div>
-      <!--
-      <button id="minimalist">Minimalist</button>
-      <button id="newfangled">Newfangled</button>
-      -->
     </div>
   </body>
 </html>
