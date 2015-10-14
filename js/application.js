@@ -68,7 +68,7 @@ $(document).ready(function() {
                                   + 'target="_blank"'
                                   + '>'
                                   + " (" + data1.topartists.artist[0].playcount
-                                  + " plays)"
+                                  + ")"
                                   + '</a>'
                                   + '</span>'
                                   + '</div>'
