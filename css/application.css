@@ -83,6 +83,7 @@ h5 {
     max-width: 300px;
     margin: -35 auto 0 auto;
     display: inline-block;
+    padding-right: 18px;
 }
 
 .holder {
@@ -98,6 +99,7 @@ table {
     display: inline-block;
     text-align: justify;
     margin: 25px 50px 25px 50px;
+    max-width: 300px;
 }
 
 a {
@@ -106,8 +108,12 @@ a {
     text-decoration: none;
 }
 
-.username,.topartist {
+.username {
     padding-bottom:10px;
+}
+
+.topartist {
+  width: 320px;
 }
 
 .username a {

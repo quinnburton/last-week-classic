@@ -30,7 +30,7 @@ $(document).ready(function() {
                                   + '<b>'
                                   + '<i class="fa fa-lastfm-square"'
                                   + 'title="See '
-                                  + user.name
+                                  + user.realname
                                   + '\'s friends"'
                                   + 'user-name='
                                   + user.name
