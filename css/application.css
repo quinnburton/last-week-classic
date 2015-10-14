@@ -75,7 +75,7 @@ h5 {
 }
 
 .above-main {
-    margin: 65px 50px 0 50px;
+    margin: 60px 50px 0 50px;
     text-align: center;
 }
 
@@ -83,7 +83,7 @@ h5 {
     max-width: 300px;
     margin: -35 auto 0 auto;
     display: inline-block;
-    padding-right: 18px;
+    padding-right: 2px;
 }
 
 .holder {
@@ -99,7 +99,8 @@ table {
     display: inline-block;
     text-align: justify;
     margin: 25px 50px 25px 50px;
-    max-width: 300px;
+    max-width: 275px;
+    padding-right: 30px;
 }
 
 a {
