@@ -9,6 +9,11 @@ h1 {
     font-size: 55px;
 }
 
+#powered-by {
+  margin: -20px auto 20px auto;
+  font-size: 12px;
+}
+
 h5 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -59,7 +64,7 @@ table {
     /*text-align: justify;*/
     /*margin: 25px 50px 25px 50px;*/
     max-width: 275px;
-    padding-right: 15px;
+    padding-right: 40px;
 }
 
 a {
@@ -73,7 +78,7 @@ a {
 }
 
 .topartist {
-  width: 255x;
+  width: 230px;
   padding-left: 1.3em;
   text-indent:-1.2em;
   margin-bottom: -15px;
@@ -101,9 +106,4 @@ a {
 
 .bottom-row {
     margin-top: 3px;
-}
-
-#powered-by {
-  margin: -20px auto 20px auto;
-  font-size: 12px;
 }
