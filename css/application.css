@@ -42,7 +42,7 @@ h5 {
     max-width: 300px;
     margin: -35px auto 0 auto;
     display: inline-block;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .holder {
@@ -59,7 +59,7 @@ table {
     /*text-align: justify;*/
     /*margin: 25px 50px 25px 50px;*/
     max-width: 275px;
-    /*padding-right: 30px;*/
+    padding-right: 15px;
 }
 
 a {
@@ -73,7 +73,7 @@ a {
 }
 
 .topartist {
-  width: 320px;
+  width: 255x;
   padding-left: 1.3em;
   text-indent:-1.2em;
   margin-bottom: -15px;
