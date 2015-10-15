@@ -49,7 +49,7 @@ $(document).ready(function() {
                                   + '</a>' + '</b>' + "'s "
                                   + "top artist: "
                                   + '</span>'
-                                  + '<div class="bottom-row">')).then($( '#success' ).append('<span class="topartist">'
+                                  + '<div class="bottom-row">')).then($( '#success' ).append('<div class="topartist">'
                                   + '&nbsp;' + '&nbsp;' + '&nbsp;' + '&nbsp;'
                                   + '<a href="'
                                   + data1.topartists.artist[0].url
@@ -57,7 +57,6 @@ $(document).ready(function() {
                                   + '>'
                                   + data1.topartists.artist[0].name
                                   + '</a>'
-                                  + '</span>'
                                   + '<span class="playcount">'
                                   + '<a href="'
                                   + "http://www.last.fm/user/"
@@ -71,6 +70,7 @@ $(document).ready(function() {
                                   + ")"
                                   + '</a>'
                                   + '</span>'
+                                  + '</div>'
                                   + '</div>'
                                   + '<br>' + '<br>'));
                           }

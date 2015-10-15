@@ -56,10 +56,10 @@ table {
 
 #success {
     display: inline-block;
-    text-align: justify;
-    margin: 25px 50px 25px 50px;
+    /*text-align: justify;*/
+    /*margin: 25px 50px 25px 50px;*/
     max-width: 275px;
-    padding-right: 30px;
+    /*padding-right: 30px;*/
 }
 
 a {
@@ -74,6 +74,9 @@ a {
 
 .topartist {
   width: 320px;
+  padding-left: 1.3em;
+  text-indent:-1.2em;
+  margin-bottom: -15px;
 }
 
 .username a {
@@ -94,13 +97,6 @@ a {
 
 .topartist a:hover {
     color: #626262;
-}
-
-.bottom {
-    margin: 0 50px 0 50px;
-    font-size: 12px;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
 }
 
 .bottom-row {
