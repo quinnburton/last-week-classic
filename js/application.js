@@ -5,7 +5,7 @@ $(document).ready(function() {
           + document.getElementById( 'textbox' ).value;
       $.ajax({
           type: 'POST',
-          url: 'http://ws.audioscrobbler.com/2.0/',
+          url: 'https://ws.audioscrobbler.com/2.0/',
           data: 'method=user.getfriends&'
               + lastfmusername
               + '&api_key=84f102d8aaa1c663732540d339bf2100&'
@@ -16,7 +16,7 @@ $(document).ready(function() {
               $.each(users, function(i, user) {
                   $.ajax({
                       type: 'POST',
-                      url: 'http://ws.audioscrobbler.com/2.0/',
+                      url: 'https://ws.audioscrobbler.com/2.0/',
                       data: 'method=user.gettopartists&'
                           + 'user='
                           + user.name
@@ -38,7 +38,7 @@ $(document).ready(function() {
                                   + '</i>'
                                   + '&nbsp;'
                                   + '<a href="'
-                                  + "http://www.last.fm/user/"
+                                  + "https://www.last.fm/user/"
                                   + user.name
                                   + '"'
                                   + 'target="_blank"'
@@ -59,7 +59,7 @@ $(document).ready(function() {
                                   + '</a>'
                                   + '<span class="playcount">'
                                   + '<a href="'
-                                  + "http://www.last.fm/user/"
+                                  + "https://www.last.fm/user/"
                                   + user.name
                                   + "/library/music/"
                                   + data1.topartists.artist[0].name
@@ -91,14 +91,3 @@ $(document).ready(function () {
         $( '#textbox' ).val(userName);
     });
 });
-
-//code to toggle between style sheets
-
-/*
-$('#minimalist').click(function (){
-    $('link[href="css/application.css"]').attr('href','css/new.css');
-});
-$('#newfangled').click(function (){
-    $('link[href="css/new.css"]').attr('href','css/application.css');
-});
-*/
