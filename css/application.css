@@ -18,11 +18,33 @@ h5 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   padding-left: 10px;
+  text-align: left;
+}
+
+#features-container {
+  margin: 20px 0 0;
+}
+
+#features-list {
+  list-style-type: none; 
+  list-style-position: inside; 
+  margin: 20px auto 0 auto; 
+  padding: 0; 
+  display: inline-block; 
+  text-align: left;
+}
+
+.feature {
+  list-style-type: none; 
+  list-style-position: inside; 
+  margin:0;
+  padding:0 0 1px;
 }
 
 .title {
-  margin: 50px 50px 0 50px;
   text-align: center;
+  width: 275px; 
+  margin: 0 auto 0 auto;"
 }
 
 .red {
@@ -71,6 +93,32 @@ a {
   text-decoration: none;
 }
 
+#textbox {
+  width: 224px; 
+  height: 38px; 
+  font-size: 15px; 
+  text-align: center; 
+  padding-bottom: 4px
+}
+
+#button {
+  vertical-align: top; 
+  display: inline-block; 
+  margin-left: -5px;
+}
+
+#submit-user {
+  height: 38px; 
+  width: 38px; 
+  -webkit-appearance: none;
+}
+
+#search-icon {
+  color: #404040; 
+  height: 33px; 
+  padding-top: 4px;
+}
+
 .username {
   padding-bottom:10px;
 }
@@ -104,4 +152,8 @@ a {
 
 .bottom-row {
   margin-top: 3px;
+}
+
+#wrapper {
+  margin-top: 20px;
 }

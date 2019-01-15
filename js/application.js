@@ -33,8 +33,7 @@ $(document).ready(function() {
                     + user.realname
                     + '\'s friends"'
                     + 'user-name='
-                    + user.name
-                    + '>'
+                    + user.name + '>'
                     + '</i>'
                     + '&nbsp;'
                     + '<a href="'
@@ -43,8 +42,7 @@ $(document).ready(function() {
                     + '"'
                     + 'target="_blank"'
                     + 'title='
-                    + user.realname
-                    + '>'
+                    + user.realname + '>'
                     + user.name
                     + '</a>' + '</b>' + "'s "
                     + "top artist: "
@@ -53,8 +51,7 @@ $(document).ready(function() {
                     + '&nbsp;' + '&nbsp;' + '&nbsp;' + '&nbsp;'
                     + '<a href="'
                     + data1.topartists.artist[0].url
-                    + '"' + 'target="_blank"'
-                    + '>'
+                    + '"' + 'target="_blank"' + '>'
                     + data1.topartists.artist[0].name
                     + '</a>'
                     + '<span class="playcount">'
@@ -64,16 +61,10 @@ $(document).ready(function() {
                     + "/library/music/"
                     + data1.topartists.artist[0].name
                     + '?date_preset=LAST_7_DAYS"'
-                    + 'target="_blank"'
-                    + '>'
-                    + " (" + data1.topartists.artist[0].playcount
-                    + ")"
-                    + '</a>'
-                    + '</span>'
-                    + '</div>'
-                    + '</div>'
-                    + '<br>' 
-                    + '<br>'
+                    + 'target="_blank"' + '>'
+                    + " (" + data1.topartists.artist[0].playcount + ")"
+                    + '</a>' + '</span>' + '</div>' + '</div>'
+                    + '<br>' + '<br>'
                   )
                 );
               }
